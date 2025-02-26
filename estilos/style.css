@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003060;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #00509e;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #007bff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #00509e;
+}
+
+section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*Fromularios */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+form label {
+    font-weight: bold;
+    color: #003060;
+}
+
+form input,
+form select {
+    width: calc(100% - 1.5rem);
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+    box-sizing: border-box; 
+}
+
+form button {
+    grid-column: span 2;
+    background-color: #003060;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #00509e;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+table thead {
+    background-color: #003060;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+}
+
+/* Botones de acciones */
+table td a {
+    margin: 0 0.3rem;
+    display: inline-block;
+}
+
+.btn-verde {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-verde:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn-rojo {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-rojo:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+table td a {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+form a.btn {
+    grid-column: span 2;
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form a.btn:hover {
+    background-color: #c82333;
+}
+
+.mensaje_verde {
+    color: #155724; 
+    background-color: #d4edda; 
+    border: 1px solid #c3e6cb; 
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mensaje_rojo {
+    color: #721c24;
+    background-color: #f8d7da; 
+    border: 1px solid #f5c6cb;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
